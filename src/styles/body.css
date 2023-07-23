@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+.body-com {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 200px;
+width: 100%;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+height: 100%;
+flex-shrink: 0;
+font-family: 'Roboto', sans-serif;
+background: url('https://s3-alpha-sig.figma.com/img/b1d4/ccd3/14d6c433bac91f04aef76b70e9b9fa1d?Expires=1690761600&Signature=TGBLF6Wi5dU5lQV1mojuFmPJWB3oeZPqgiUHCjbOvmmiLeymi3FRiLZLPu4a7KbH9epzlP8sS2CDPZ75h0ePStADDJlv8hnNunG1r~koo4XBFT3HZOtjN-ShCkBUYbaetMKj5c~KGd7tOI-UDlxruwintqekR43QAFB73v1me-YQvkPlM9fCpcZ9-GNBKV0~YB3VhxukTWpDdHbJ4Qn9-7T80nzbbrJgNKp2Q-MYnN9bnQoMVnrH1X3LdHL9Quid-XgEldoKavOZLcooIUEKLbVhoy4mWt-rRJznh4HivSpiPJj38eR4-K-GBd7zbG4njrZUqYi1SKTuLeuaXYODNg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
+lightgray 50% / cover no-repeat;
+background-color: rgba(8, 2, 116, 0.58);
+background-position: center;
+}
+
+

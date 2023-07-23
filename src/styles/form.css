@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Raleway:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+.main-form{
+    display: flex;
+width: 33%;
+height: auto;
+padding: 32px 24px;
+flex-direction: column;
+align-items: center;
+gap: 28px;
+border-radius: 8px;
+background: #ffffff;
+margin: 50px;
+}
+
+.form-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 160px;
+    align-self: stretch;
+}
+
+.form-top-1{
+    display: flex;
+    width: 80px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.form-top-span{
+display: flex;
+width: 38px;
+height: 38px;
+padding: 7.093px 10.133px 8.107px 10.133px;
+justify-content: center;
+align-items: center;
+border-radius: 1000px;
+background: #0096FF;
+}
+
+.form-top-span-text{
+    color: #3C4852;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.16px;
+}
+
+.form-Text{
+    align-self: stretch;
+    color: #3C4852;
+text-align: center;
+font-family: Roboto;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: 125.303%; /* 30.073px */
+}
+
+.form-rezorpay-icon{
+    display: flex;
+    align-items: left;
+    align-self: stretch;
+}
+
+.form-button-div{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 16px;
+align-self: stretch;
+}
+
+.form-input-container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 16px;
+align-self: stretch;
+}
+
+.form-button-cancel{
+    display: flex;
+height: 56px;
+padding: 10px 42px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex: 1 0 0;
+border-radius: 4px;
+border: 2px solid #F77171;
+color: #F77171;
+text-align: center;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+.form-button-pay{
+    display: flex;
+    height: 56px;
+    padding: 10px 42px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    border-radius: 4px;
+background: #47BA68;
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.form-rezorpay-icon img{
+    width: 100px;
+height: 100%;
+flex-shrink: 0;
+}
+
+
+
+.quiz {
+    text-align: center;
+  }
+  
+  .question {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .answers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .answer {
+    width: 200px;
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .correct {
+    background-color: #80ff80; /* Green for correct answer */
+  }
+  
+  .selected {
+    background-color: #b3d9ff; /* Blue for selected answer */
+  }
+  
+  .answer:hover {
+    background-color: #e0e0e0; /* Gray on hover */
+  }
+  
+  .answer:disabled {
+    cursor: not-allowed;
+  }
+  
